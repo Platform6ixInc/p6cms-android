@@ -5,7 +5,7 @@
     <string name="app_onboarding_description">Please read the terms of service before proceeding</string>
     <string name="tab_1_name">Scan QR Code</string>
     <string name="tab_2_name">Maps Dashboard</string>
-    <string name="tab_3_name">Routes Dashboard</string>
+    <string name="tab_3_name">Dashboard</string>
     <string name="tab_4_name">Calendar Dashboard</string>
     <string name="tab_5_name">Manage Settings</string>
     <string name="Home">Home</string>pp
