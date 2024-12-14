@@ -316,7 +316,7 @@ fun OnBoardingItem(items: OnBoardingItems) {
         Image(
             painter = painterResource(id = items.image),
             contentDescription = "Image1",
-            modifier = Modifier.padding(start = 50.dp, end = 50.dp)
+            modifier = Modifier.padding(start = 10.dp, end = 10.dp)
         )
 
         Spacer(modifier = Modifier.height(25.dp))
