@@ -3,12 +3,6 @@
 # Script to rename Android package and project names
 # Run this script from the root of your Android project
 
-OLD_PACKAGE="ai.offside.fr8proapp"
-NEW_PACKAGE="com.platform6ix.p6cms"
-
-OLD_PATH="ai/offside/fr8proapp"
-NEW_PATH="com/platform6ix/p6cms"
-
 update_package_name() {
     echo "Starting package rename process..."
 
@@ -89,18 +83,32 @@ echo "================="
 echo "Please select an option:"
 echo "1. Update package name"
 echo "2. Update project name"
-echo -n "Enter your choice (1 or 2): "
-read choice
+echo "3. Exit"
+
+read -p "Enter your choice (1-3): " choice
 
 case $choice in
     1)
+        # Get package names from user input
+        read -p "Enter the old package name (e.g., ai.offside.fr8proapp): " OLD_PACKAGE
+        read -p "Enter the new package name (e.g., com.platform6ix.p6cms): " NEW_PACKAGE
+        
+        # Convert package names to paths
+        OLD_PATH=$(echo $OLD_PACKAGE | sed 's/\./\//g')
+        NEW_PATH=$(echo $NEW_PACKAGE | sed 's/\./\//g')
+        
+        # Call update_package_name with the new values
         update_package_name
         ;;
     2)
         update_project_name
         ;;
+    3)
+        echo "Exiting..."
+        exit 0
+        ;;
     *)
-        echo "Invalid choice. Please run the script again and select 1 or 2."
+        echo "Invalid choice"
         exit 1
         ;;
 esac
