@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "FR8ProApp"
+rootProject.name = "P6CMS"
 include ':app'

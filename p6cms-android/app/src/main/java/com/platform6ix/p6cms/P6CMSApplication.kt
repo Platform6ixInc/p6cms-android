@@ -10,7 +10,7 @@ import timber.log.Timber
 
 
 @HiltAndroidApp
-class Fr8ProAppApplication : Application(){
+class P6CMSApplication : Application(){
     override fun onCreate() {
         super.onCreate()
 

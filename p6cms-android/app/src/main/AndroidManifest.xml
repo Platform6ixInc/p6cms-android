@@ -24,7 +24,7 @@
         android:required="false" />
 
     <application
-        android:name=".Fr8ProAppApplication"
+        android:name=".P6CMSApplication"
         android:allowBackup="false"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:enableOnBackInvokedCallback="true"
