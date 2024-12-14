@@ -302,8 +302,6 @@ fun TabTwoScreenBak(
                                 PermUtils.openAppSettings(context)
                             }
                         )
-
-
                         Spacer(modifier = Modifier.height(8.dp))
                         Image(
                             painter = painterResource(id = R.drawable.appicon),

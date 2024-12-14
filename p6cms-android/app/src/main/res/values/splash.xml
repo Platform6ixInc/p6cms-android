@@ -2,7 +2,7 @@
 <resources>
     <style name="Theme.App.Launch" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/primary</item>
-        <item name="windowSplashScreenAnimatedIcon">@drawable/app_icon_fr8_pro</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_transparent_1</item>
         <item name="postSplashScreenTheme">@style/Theme.Default</item>
     </style>
 </resources>

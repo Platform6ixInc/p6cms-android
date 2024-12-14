@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">FR8 Pro App</string>
-    <string name="app_about_title">About FR8 Pro App</string>
-    <string name="app_about_description">FR8 Pro App is a TMS Platform Powered by AI and Machine Learning</string>
+    <string name="app_name">P6 CMS</string>
+    <string name="app_about_title">P6 CMS</string>
+    <string name="app_about_description">P6 CMS is a Next Gen Agentic AI Tech Stack</string>
     <string name="app_onboarding_description">Please read the terms of service before proceeding</string>
     <string name="tab_1_name">Scan QR Code</string>
     <string name="tab_2_name">Maps Dashboard</string>
@@ -96,16 +96,16 @@
     <string name="location_permission_title">LOCATION PERMISSION REQUIRED</string>
     <string name="location_required_title">Location required</string>
 
-    <string name="onBoardingTitle1">FR8 Pro App</string>
-    <string name="onBoardingText1">Your comprehensive solution for freight logistics and ERP</string>
-    <string name="onBoardingTitle2">FR8 Pro ERP</string>
-    <string name="onBoardingText2">Streamline your supply chain logistics with realtime tracking and updates</string>
-    <string name="onBoardingTitle3">FR8 Pro CRM</string>
-    <string name="onBoardingText3">Optimize your CRM and integrate with operations and analytics</string>
-    <string name="onBoardingTitle4">FR8 Pro Dynamics</string>
-    <string name="onBoardingText4">Dynamic route planning for cost and time savings.</string>
-    <string name="onBoardingTitle5">FR8 Pro TMS</string>
-    <string name="onBoardingText5">Manage your loads end-to-end using the FR8 Pro TMS</string>
+    <string name="onBoardingTitle1">P6ix CMS</string>
+    <string name="onBoardingText1">Platform6ic Reference SaaS</string>
+    <string name="onBoardingTitle2">P6ix CMS</string>
+    <string name="onBoardingText2">P6ix CMS Reference SaaS</string>
+    <string name="onBoardingTitle3">P6ix CMS</string>
+    <string name="onBoardingText3">P6ix CMS Reference SaaS</string>
+    <string name="onBoardingTitle4">P6ix CMS</string>
+    <string name="onBoardingText4">P6ix CMS Reference SaaS</string>
+    <string name="onBoardingTitle5">P6ix CMS</string>
+    <string name="onBoardingText5">Optimize</string>
     <string name="tab_1_title">Scanner</string>
     <string name="tab_2_title">Loadboard</string>
     <string name="tab_3_title">Dashboard</string>

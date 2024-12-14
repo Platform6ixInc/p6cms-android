@@ -39,7 +39,7 @@ fun CustomAppBar(
         }
         Image(
             painter = painterResource(id = R.drawable.top_center),
-            contentDescription = "FR8Pro",
+            contentDescription = "P6CMS",
             modifier = Modifier.fillMaxWidth(0.5F)
                 .padding(
                     horizontal = 20.dp,

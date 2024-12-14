@@ -53,7 +53,7 @@
 
         <service android:name=".services.BeaconProToolsService" android:foregroundServiceType="location"/>
         <receiver
-            android:name="com.platform6ix.p6cms.Receiver.FR8ProAppBroadcastReceiver"
+            android:name="com.platform6ix.p6cms.Receiver.P6CMSBroadcastReceiver"
             android:exported="false"
             >
             <intent-filter>
