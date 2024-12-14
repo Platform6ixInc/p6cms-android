@@ -1,5 +1,8 @@
 #!/bin/bash
 
+export LC_ALL=C
+export LANG=C
+
 # Script to rename Android package and project names
 # Run this script from the root of your Android project
 
@@ -94,9 +97,17 @@ case $choice in
         read -p "Enter the new package name (e.g., com.platform6ix.p6cms): " NEW_PACKAGE
         
         # Convert package names to paths
-        OLD_PATH=$(echo $OLD_PACKAGE | sed 's/\./\//g')
-        NEW_PATH=$(echo $NEW_PACKAGE | sed 's/\./\//g')
-        
+        # OLD_PATH=$(echo $OLD_PACKAGE | sed 's/\./\//g')
+        # NEW_PATH=$(echo $NEW_PACKAGE | sed 's/\./\//g')
+
+        OLD_PATH=$(printf "%s" "$OLD_PACKAGE" | LC_ALL=C sed 's/\./\//g')
+        NEW_PATH=$(printf "%s" "$NEW_PACKAGE" | LC_ALL=C sed 's/\./\//g')
+
+        echo "Using OLD_PACKAGE: $OLD_PACKAGE"
+        echo "Using NEW_PACKAGE: $NEW_PACKAGE"
+        echo "Using OLD_PATH: $OLD_PATH"
+        echo "Using NEW_PATH: $NEW_PATH"
+
         # Call update_package_name with the new values
         update_package_name
         ;;
